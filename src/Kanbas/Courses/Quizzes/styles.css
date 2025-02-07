@@ -1,0 +1,257 @@
+.three-dots-button {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #808080;
+    width: 30px;
+    height: 37px;
+    border-radius: 15%;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.three-dots-button-item {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #808080;
+    width: 30px;
+    height: 37px;
+    border-radius: 15%;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.three-dots-button-item:hover,
+.three-dots-button:hover {
+    background-color: #DCDCDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 37px;
+    border-radius: 15%;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+
+.hidden {
+  display: none;
+}
+
+#wd-quizzes {
+  position: relative;
+  top: 0px;
+  left: 50px;
+  width: 75vw;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#wd-quizzes-controls {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#wd-controls-right {
+  position: relative;
+}
+
+#wd-search-quiz {
+  width: 250px;
+  padding-right: 30px;
+}
+
+.search-icon {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+#wd-add-quiz-group {
+  background-color: #f0f0f0;
+  color: black;
+  border: 1px solid grey;
+}
+
+#wd-add-quiz-group:hover {
+  background-color: #c6c6c6;
+}
+
+#wd-add-quiz {
+  background-color: #d9534f;
+  color: white;
+}
+
+#wd-add-quiz:hover {
+  background-color: #c9302c;
+}
+
+#wd-quizzes-title {
+  font-size: 1rem;
+  padding-left: 7px;
+  font-weight: bold;
+}
+
+.wd-quiz-title-item {
+  padding: 10px;
+  border: 1.5px solid #DCDCDC;
+  background-color: #f8f9fa;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.wd-quiz-list-item {
+  padding: 10px;
+  border-left: 3px solid #28a745;
+  border-bottom: 1.5px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+  border-top: 0.1px grey;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.wd-quiz-link {
+  font-weight: bold;
+  color: #333;
+}
+
+.wd-quiz-link:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #f8f9fa;
+  color: #333;
+  border-radius: 50%;
+}
+
+.circle-container {
+  display: flex;
+  align-items: center;
+}
+
+.circle-container .badge {
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 1px solid #b5bbc2;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  margin-left: -10px;
+}
+
+.btn-light:hover {
+  background-color: #e2e6ea;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.book-icon {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-right: 20px;
+  color: rgb(25, 174, 25);
+}
+
+.quiz-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.quiz-details .first-line {
+  font-weight: bold;
+}
+
+.quiz-details .second-line{
+  color: #dc3545;
+}
+
+.text-muted {
+  font-size: 0.175rem;
+  margin-top:4px;
+  color: #666;
+}
+
+.quiz-details .second-line span{
+  color: inherit;
+}
+
+.dropdown-option:hover{
+  background-color: #f0f0f0;
+}
+
+.symbol-quiz{
+  cursor: pointer;
+}
+
+.symbol-quiz:hover{
+  background-color: #DCDCDC;
+  cursor: pointer;
+}
+
+/*.modal-content {
+  border: none !important;
+}*/
+
+.modal-body-left{
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+  font-smooth: always;
+  line-height: 2;
+}
+
+.modal-body-right{
+  text-align: left;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.modal-dialog {
+  max-width: 50%;
+}
+
+.modal-body {
+  margin-top: -10px;
+}
+
+.mid-line{
+  margin:0px;
+  margin-top: -10px;
+}
+
+.container-modal {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.item {
+  flex: 1;
+  text-align: left;
+  font-size: 15px;
+}

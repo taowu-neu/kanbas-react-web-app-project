@@ -1,0 +1,18 @@
+#wd-courses-navigation > .list-group-item.active {
+  width: 120px;
+  color: black;
+  background-color: white;
+  border-left: 3px solid black !important;
+  margin-left: -3px;
+  z-index: 10;    
+}
+
+#wd-courses-navigation > .list-group-item:not(.active) {
+  width: 120px;
+  color: rgb(210, 40, 40);
+  z-index: 10;    
+}
+
+.move-left{position: relative;
+  left: 0px;
+}

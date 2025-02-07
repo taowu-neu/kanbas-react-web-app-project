@@ -1,0 +1,23 @@
+.list-group-item {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.list-group-item:hover {
+    background-color: #aeacac !important;
+  }
+  
+#wd-account-link {
+    padding-left: 10px;
+    padding-right: 8px;
+}

@@ -1,0 +1,21 @@
+#wd-modules-controls {
+    margin-top: 0px;
+    left: 40px;
+    width: 55vw;
+}
+
+#wd-modules {
+    margin-right: 200px;
+    width: 45vw;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.wd-alls {
+    position: relative; /* 确保 z-index 有效 */
+    z-index: 1; /* 放到最低层 */
+}
+
+#wd-add-module-btn{
+    margin-left: 10px;
+}
