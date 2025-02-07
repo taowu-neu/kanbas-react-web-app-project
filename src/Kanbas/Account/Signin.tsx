@@ -68,7 +68,7 @@ export default function Signin() {
           setCredentials({ ...credentials, username: e.target.value })
         }
         value={credentials.username}
-        className="form-control mb-2"
+        className="form-control mb-2 w-25"
         placeholder="username"
       />
       <input
@@ -77,14 +77,14 @@ export default function Signin() {
           setCredentials({ ...credentials, password: e.target.value })
         }
         value={credentials.password}
-        className="form-control mb-2"
+        className="form-control mb-2 w-25"
         placeholder="password"
         type="password"
       />
       <button
         id="wd-signin-btn"
         onClick={signin}
-        className="btn btn-primary w-100"
+        className="btn btn-primary w-25"
       >
         {" "}
         Sign in{" "}
